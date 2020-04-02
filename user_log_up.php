@@ -33,7 +33,9 @@
           <TR>
             <TD><?php echo $row['id']; ?></TD>
             <TD><?php echo $row['username']; ?></TD>
-            <TD><?php echo $row['serialnumber']; ?></TD>
+            <TD><?php if ($row['serialnumber']== 0) {
+                echo "Ketua Umum";
+            } ?></TD>
             <TD><?php echo $row['fingerprint_id']; ?></TD>
             <TD><?php echo $row['checkindate']; ?></TD>
             <TD><?php echo $row['timein']; ?></TD>
