@@ -28,6 +28,7 @@ if(isset($_POST["To_Excel"])){
                             <TH>Time In</TH>
                           </TR>';
               while($row=$result->fetch_assoc()) {
+                
                   $output .= '
                               <TR> 
                                   <TD> '.$row['id'].'</TD>

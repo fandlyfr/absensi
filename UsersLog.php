@@ -47,7 +47,7 @@
       <!--User table-->
       <h1 class="slideInDown animated">Here are the Users daily logs</h1>
       <div class="form-style-5 slideInDown animated">
-        <form method="POST" action="Export_Excel.php">
+        <form method="POST" action="export_xls.php">
           <input type="date" name="date_sel" id="date_sel">
           <button type="button" name="user_log" id="user_log">Select Date</button>
           <input type="submit" name="To_Excel" value="Export to Excel">

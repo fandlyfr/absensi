@@ -9,7 +9,7 @@ session_start();
 <header>
 <div class="header">
 	<div class="logo">
-		<a href="index.php">Biometric Attendance</a>
+		<a href="index.php">Absensi Pengurus HMIF FT-UH</a>
 	</div>
 </div>
 

@@ -54,7 +54,9 @@
                     <TD><?php echo $row['id'];
                         echo " | ";
                         echo $row['username']; ?></TD>
-                    <TD><?php echo $row['serialnumber']; ?></TD>
+                    <TD><?php if ($row['serialnumber']== 0) {
+                echo "Ketua Umum";
+            } ?></TD>
                     <TD><?php echo $row['gender']; ?></TD>
                     <TD><?php echo $row['fingerprint_id']; ?></TD>
 
