@@ -54,9 +54,37 @@
                     <TD><?php echo $row['id'];
                         echo " | ";
                         echo $row['username']; ?></TD>
-                    <TD><?php if ($row['serialnumber']== 0) {
-                echo "Ketua Umum";
-            } ?></TD>
+                    <TD><?php 
+                    if ($row['serialnumber']== 1) {
+                      echo "Ketua Umum";
+                  }elseif ($row['serialnumber'] == 2) {
+                    echo 'Sekretaris Umum';
+                  }elseif ($row['serialnumber'] == 3) {
+                    echo 'Bendahara Umum';
+                  }elseif ($row['serialnumber'] == 4) {
+                    echo 'Ketua 1';
+                  }elseif ($row['serialnumber'] == 5) {
+                    echo 'Ketua 2';
+                  }elseif ($row['serialnumber'] == 6) {
+                    echo 'Sekretaris 1';
+                  }elseif ($row['serialnumber'] == 7) {
+                    echo 'Sekretaris 2';
+                  }elseif ($row['serialnumber'] == 8) {
+                    echo 'Koord. Kompartemen Pengembangan Sumber Daya Mahasiswa';
+                  }elseif ($row['serialnumber'] == 9) {
+                    echo 'Koord. Kompartemen Pendidikan';
+                  }elseif ($row['serialnumber'] == 10) {
+                    echo 'Koord. Kompartemen Kesekretariatan';
+                  }elseif ($row['serialnumber'] == 11) {
+                    echo 'Koord. Kompartemen Kajian dan Aksi Strategis';
+                  }elseif ($row['serialnumber'] == 12) {
+                    echo 'Koord. Kompartemen Riset dan Teknologi';
+                  }elseif ($row['serialnumber'] == 13) {
+                    echo 'Koord. Kompartemen Sosial Masyarakat';
+                  }elseif ($row['serialnumber'] == 14) {
+                    echo 'Koord. Kompartemen Media Informasi';
+                  }
+             ?></TD>
                     <TD><?php echo $row['gender']; ?></TD>
                     <TD><?php echo $row['fingerprint_id']; ?></TD>
 
