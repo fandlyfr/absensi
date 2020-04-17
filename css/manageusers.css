@@ -7,7 +7,7 @@
   padding: 20px;
   background: #f4f7f8;
   border-radius: 8px;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
 }
 .form-style-5 fieldset{
   border: none;
@@ -26,7 +26,7 @@
 .form-style-5 input[type="email"],
 .form-style-5 input[type="number"],
 .form-style-5 input[type="time"] {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
   background: rgba(255,255,255,.1);
   border: none;
   border-radius: 4px;
@@ -55,13 +55,13 @@
 .form-style-5 input[type="email"]:hover,
 .form-style-5 input[type="number"]:hover,
 .form-style-5 input[type="time"]:hover {
-  border: 1px solid #388994;
+  border: 1px solid #324058;
 }
 .form-style-5 input[type="radio"]:hover {
   cursor: pointer;
 }
 .form-style-5 .number {
-  background: #388994;
+  background: #324058;
   color: #fff;
   height: 30px;
   width: 30px;
@@ -80,17 +80,17 @@
   padding: 10px 39px 10px 39px;
   color: #FFF;
   margin: 0 auto;
-  background: #388994;
+  background: #324058;
   font-size: 16px;
   text-align: center;
   font-style: normal;
   width: 100%;
-  border: 1px solid #3f9aa6;
+  border: 1px solid #324058;
   border-width: 1px 1px 3px;
   margin-bottom: 10px;
 }
 .form-style-5 button:hover {
-  background: #3f9aa6;
+  background: #324058;
   cursor: pointer;
 }
 .form-style-5 .alert {
@@ -107,7 +107,7 @@
   border: 1px solid #2e6b32;
   background: -webkit-linear-gradient(left, #70c276, #2e6b32);
   background: linear-gradient(to right, #70c276, #2e6b32);
-  font-family: Georgia, "Times New Roman", Times, serif;
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
 }
 @font-face {
   font-family: judul2;
@@ -118,7 +118,7 @@ h1{
   color: #fff;
   text-transform: uppercase;
   font-weight: 300;
-  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  /* font-family: New Century Schoolbook, TeX Gyre Schola, serif; */
   text-align: center;
   margin-top: 70px;
   margin-bottom: 15px;
