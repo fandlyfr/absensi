@@ -3,7 +3,7 @@
   height: 850px;
   padding: 10px 20px;
   background: #f4f7f8;
-  margin: 30px 20px;
+  margin: 30px 30px 50px 70px;
   padding: 20px;
   background: #f4f7f8;
   border-radius: 8px;
@@ -109,15 +109,30 @@
   background: linear-gradient(to right, #70c276, #2e6b32);
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-
+@font-face {
+  font-family: judul2;
+  src: url(Lato-Regular.ttf);
+}
 h1{
   font-size: 30px;
-  color: #000;
+  color: #fff;
   text-transform: uppercase;
   font-weight: 300;
   font-family: New Century Schoolbook, TeX Gyre Schola, serif;
   text-align: center;
+  margin-top: 70px;
   margin-bottom: 15px;
+  
+}
+h2{
+  font-size: 22px;
+  color: #fff;
+  font-weight: 300;
+  font-family: 'judul2';
+  text-align: left;
+  margin-top: 70px;
+  margin-bottom: 15px;
+  margin-left: 85px;
 }
 table{
   width:100%;
@@ -164,8 +179,9 @@ td{
 }
 
 .section {
-  margin: 50px;
-  width: 740px;
+  margin-top: 110px;
+  margin-right: 80px;
+  width: 850px;
   display: block;
   float: right;
   position: absolute;

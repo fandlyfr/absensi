@@ -9,7 +9,9 @@ session_start();
 <header>
 <div class="header">
 	<div class="logo">
+		<img src= "icons/logo_OKIF.png" alt="logo OKIF"/>
 		<a href="index.php">Absensi Pengurus HMIF FT-UH</a>
+		<img src= "icons/logo_CI.png" alt="logo CI"/>
 	</div>
 </div>
 

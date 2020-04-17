@@ -45,7 +45,7 @@
   <main>
     <section>
       <!--User table-->
-      <h1 class="slideInDown animated">Here are the Users daily logs</h1>
+      <h1 class="slideInDown animated">Users Daily Logs</h1>
       <div class="form-style-5 slideInDown animated">
         <form method="POST" action="export_xls.php">
           <input type="date" name="date_sel" id="date_sel">

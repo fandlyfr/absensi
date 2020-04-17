@@ -19,7 +19,7 @@
   <main>
     <section>
       <!--User table-->
-      <h1 class="slideInDown animated">Here are all the Users</h1>
+      <h1 class="slideInDown animated">USERS LIST</h1>
       <div class="tbl-header slideInRight animated">
         <table cellpadding="0" cellspacing="0" border="0">
           <thead>

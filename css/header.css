@@ -4,8 +4,8 @@
 }
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
 body{
-    background: -webkit-linear-gradient(left, #0e251f, #21a0ab);
-    background: linear-gradient(to right, #23555c, #21a0ab);
+  background: -webkit-linear-gradient(left, #0e251f, #499299);
+  background: linear-gradient(to right, #809294, #05737a);
     font-family: 'Roboto', sans-serif;
     margin: 0;
     font-size: 15px;
@@ -25,12 +25,26 @@ header, main {
   text-decoration: none; 
   font-family: Luminari, fantasy;
   font-size: 45px;
-  color: #000000;
+  color: #2b3233;
   font-style: italic;
   text-align: center;
   vertical-align: middle;
   line-height: 100px;
   display: block;
+}
+.logo :first-child {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 20px;
+  top: 15px;
+}
+.logo :last-child {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  right: 30px;
+  top: 20px;
 }
 
 #navbar {
@@ -59,7 +73,7 @@ header, main {
 
 .topnav {
   overflow: hidden;
-  background-color: #187881;
+  background: -webkit-linear-gradient(left, #22696e, #71a1a5);
 }
 
 .topnav a {

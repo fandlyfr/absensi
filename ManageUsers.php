@@ -37,7 +37,8 @@
 <body>
 	<?php include 'header.php'; ?>
 	<main>
-		<h1 class="slideInDown animated">Add a new User or update his information <br> or remove him</h1>
+	<h1 class="slideInDown animated">Users Information</h1>
+	<h2 class="slideInDown animated">Add a New User or Update His Information</h2>
 		<div class="form-style-5 slideInDown animated">
 			<div class="alert">
 				<label id="alert"></label>
