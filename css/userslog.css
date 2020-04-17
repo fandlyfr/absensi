@@ -3,6 +3,7 @@
   margin: 0px auto; 
   max-width: 200px;
   padding: 5px;
+  margin-bottom: 30px;
 }
 .form-style-5 input[type="date"]{
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -50,12 +51,13 @@
 
 h1{
   font-size: 30px;
-  color: #000;
+  color: #fff;
   text-transform: uppercase;
   font-weight: 300;
   font-family: New Century Schoolbook, TeX Gyre Schola, serif;
   text-align: center;
-  margin-bottom: 15px;
+  margin-top: 70px;
+  margin-bottom: 50px;
 }
 table{
   width:100%;

@@ -2,7 +2,7 @@
 	//Connect to database
     $servername = "localhost";
     $username = "root";		//put your phpmyadmin username.(default is "root")
-    $password = "";			//if your phpmyadmin has a password put it here.(default is "root")
+    $password = "1234";			//if your phpmyadmin has a password put it here.(default is "root")
     $dbname = "";
     
 	$conn = new mysqli($servername, $username, $password, $dbname);
